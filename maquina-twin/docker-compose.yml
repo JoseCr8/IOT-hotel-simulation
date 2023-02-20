@@ -1,0 +1,8 @@
+services:
+  twin:
+   build: ./twin
+   environment:
+       - MQTT_SERVER_ADDRESS=34.79.175.189
+       - MQTT_SERVER_PORT_1=1883
+       - MQTT_SERVER_PORT_2=1884
+       - PYTHONUNBUFFERED=1
